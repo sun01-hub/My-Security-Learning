@@ -1,5 +1,5 @@
 # My-Security-Learning
-# My CTF Journey （我的CTF之旅）
+# My Cybersecurity Journey （我的网安之旅）
 
 > 一名网络安全爱好者的学习笔记与工具集。这个仓库记录了我从零开始学习CTF竞赛的点点滴滴，包括解题思路、自动化脚本和知识总结。
 
