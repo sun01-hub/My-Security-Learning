@@ -16,9 +16,9 @@ https://github.com/sun01-hub/My-Security-Learning/blob/957c48ea460f5d35eff13a73d
 
 flag:cyberpeace{68595f33dac9e2d0be74f106f006f0c0}
 
-总结：理解robots.txt是协议，如果不想让搜索引擎搜索到该网站内容，那就创建robots.txt ，否则不建议创建.
+总结：robots.txt 是一个放在网站根目录下的文本文件，它的核心作用是 引导和劝告 规范的网络爬虫（如搜索引擎蜘蛛）哪些内容可以抓取，哪些内容不建议抓取。
 比如：
-允许谷歌爬虫抓取所有内容，但进制其它爬虫
+允许谷歌爬虫抓取所有内容，但不允许其它爬虫抓取
 User-agent: Googlebot
 Disallow:
 
