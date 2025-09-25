@@ -3,6 +3,8 @@
 我的解题过程：
 1、初试尝试
 不懂得什么是robots.txt 后面去网上查找相关资料
+发现robots.txt是个非常可疑的东西我就试着去把他拼接到网址后面,拼接后得到以下内容:
+https://github.com/sun01-hub/My-Security-Learning/blob/80ff4066ca7bf4719d8bb158a284f01fcb9080a4/CTF%E9%A2%98%E8%A7%A3/images/Training-WwW-Robots.png
 
 2、学习与探索
 通过查找，我知道了什么robots.txt 。
