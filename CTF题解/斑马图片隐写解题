@@ -1,7 +1,7 @@
 【攻防世界】Misc 新手题：斑马图片找Flag
 
 题目描述
-给出一张斑马的图片https://github.com/sun01-hub/My-Security-Learning/blob/65ebb862fa6a90e3df1cd50f026185c1d526a879/CTF%E9%A2%98%E8%A7%A3/images/%E6%96%91%E9%A9%ACflag.png，要求找出隐藏的flag。
+给出一张斑马的图片，要求找出隐藏的flag。
 
 我的解题过程
 
@@ -20,7 +20,7 @@
 
 2.  使用 `https://online-barcode-reader.inliteresearch.com/`在线解码器 查看图片信息：
 
-    -结果：发现flag     images/斑马flag.png
+    -结果：发现flag https://github.com/sun01-hub/My-Security-Learning/blob/65ebb862fa6a90e3df1cd50f026185c1d526a879/CTF%E9%A2%98%E8%A7%A3/images/%E6%96%91%E9%A9%ACflag.png
 
 4. 总结
 - 知识点： 图片的中可能隐藏重要数据。
