@@ -1,0 +1,31 @@
+【攻防世界】Misc 新手题：斑马图片找Flag
+
+题目描述
+给出一张斑马的图片，要求找出隐藏的flag。
+
+我的解题过程
+
+1. 初始尝试
+我一开始毫无头绪，只知道是一张图片。
+
+2. 学习与探索
+通过搜索Writeup，我学到了针对图片隐写题的通用解题步骤和工具。
+
+3. 使用工具分析
+1.  使用 `strings` 命令搜索字符串：
+    bash
+    strings zebra.png | grep -i flag
+    
+    -结果：没有发现明显flag。
+
+2.  使用 `https://online-barcode-reader.inliteresearch.com/`在线解码器 查看图片信息：
+
+    -结果：发现flag
+
+4. 总结
+- 知识点： 图片的元信息（EXIF）可能隐藏重要数据。
+- 新工具：`https://online-barcode-reader.inliteresearch.com/`。
+- 解题思路： 遇到图片题，首先应该检查其元数据。
+
+## Flag
+`flag{th1s_1s_a_fl4g}`
