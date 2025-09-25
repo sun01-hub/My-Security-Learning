@@ -20,12 +20,12 @@
 
 2.  使用 `https://online-barcode-reader.inliteresearch.com/`在线解码器 查看图片信息：
 
-    -结果：发现flag
+    -结果：发现flag     images/斑马flag.png
 
 4. 总结
 - 知识点： 图片的中可能隐藏重要数据。
 - 新工具：`https://online-barcode-reader.inliteresearch.com/`。
 - 解题思路： 遇到图片题，首先应该检查其元数据。
 
-## Flag
-`flag{th1s_1s_a_fl4g}`
+Flag
+`flag{TENSHINE}`
