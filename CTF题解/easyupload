@@ -1,4 +1,4 @@
-【攻防世界】web 新手题 easyupload
+【攻防世界】web 新手题 
 
 题目描述：一名合格的黑客眼中，所有的上传点都是开发者留下的后门。
 
@@ -49,3 +49,5 @@ auto_prepend_file可以让所有的php文件自动的包含某个文件。
 ![image-20251011210744122](C:\Users\22512\AppData\Roaming\Typora\typora-user-images\image-20251011210744122.png)
 
 总结：让我学到新的方法，使用.user.ini文件进行绕过。
+
+#CTF #Web安全 #Misc新手题
