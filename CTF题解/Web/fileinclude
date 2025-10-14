@@ -1,0 +1,42 @@
+【攻防世界】web 新手题 
+
+​	我的题解过程：
+
+1、首先打开所给网站链接，映入眼帘的是
+
+![image-20251014223309364](C:\Users\22512\AppData\Roaming\Typora\typora-user-images\image-20251014223309364.png)
+
+​	上面两行代码给我的第一感觉就是报错信息，然后看最后一行，The flag is in flag.php，flag在flag.php？试着访问一下，发现一片空白，没有发现有价值的东西，
+
+​	回到首页，ctrl+u打开网页源代码，发先存在php代码
+
+![image-20251014224234706](C:\Users\22512\AppData\Roaming\Typora\typora-user-images\image-20251014224234706.png)
+
+​	既然发现重要信息，那我们该如何运用呢？
+
+​	这里需要用到php伪协议。什么是php伪协议？
+
+​	PHP伪协议是PHP提供的一系列 用于访问各种输入/输出流的封装协议，它们以php://开头，提供了特殊的数据处理能力。
+
+​	描述：
+
+使用burp工具对首页进行抓包，构造 cookie参数
+
+![image-20251014225156388](C:\Users\22512\AppData\Roaming\Typora\typora-user-images\image-20251014225156388.png)
+
+修改之后，发现并没有flag，仍然是空白界面，别急，我们将index.php换成flag就可以了
+
+![image-20251014225349566](C:\Users\22512\AppData\Roaming\Typora\typora-user-images\image-20251014225349566.png)
+
+![image-20251014225424549](C:\Users\22512\AppData\Roaming\Typora\typora-user-images\image-20251014225424549.png)
+
+这里采用base64编码，需要进行base64解码,得出flag:
+
+cyberpeace{12314b860e72cd0e4bd816345131fe26}
+
+​	注：为什么”resource=“后面的地址是/var/www/html/index.php，因为在首页我们就发现类似报错信息，见本章第一张图，翻译过来是：![image-20251014230036814](C:\Users\22512\AppData\Roaming\Typora\typora-user-images\image-20251014230036814.png)
+
+说明地址就是/var/www/html/index.php
+
+​	总结：这里主要的点是利用php伪协议来进行绕过处理，还有就是不能按常规思想来，就比如最后需要把index.php改成flag，而不是flag.php。
+
