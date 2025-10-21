@@ -10,7 +10,9 @@
 
 如何构造？
 
-__wakeup()属于魔术方法，通常用于反序列化中，这个代码肯定是有问题的，所以我们需要构造序列化，补全php代码，![image-20250927155656509](C:\Users\22512\AppData\Roaming\Typora\typora-user-images\image-20250927155656509.png)
+__wakeup()属于魔术方法，通常用于反序列化中，这个代码肯定是有问题的，所以我们需要构造序列化，补全php代码，
+
+![image-20250927155656509](C:\Users\22512\AppData\Roaming\Typora\typora-user-images\image-20250927155656509.png)
 
 
 
