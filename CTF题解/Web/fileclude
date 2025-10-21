@@ -8,7 +8,7 @@
 
 代码审计，先把整个php代码的流程看懂，这样才可以构造参数和值。
 
-![image-20251021171143370](C:\Users\22512\AppData\Roaming\Typora\typora-user-images\image-20251021171143370.png)
+![image-20251021171143370](assets/image-20251021171143370.png)
 
 ```php
 if(isset($GET["file1"]) && isset($GET["file2"]))
