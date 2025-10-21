@@ -46,7 +46,7 @@ auto_prepend_file可以让所有的php文件自动的包含某个文件。
 
 连接后，在里面找到flag：
 
-![image-20251011210744122](C:\Users\22512\AppData\Roaming\Typora\typora-user-images\image-20251011210744122.png)
+![image-20251021231233294](assets/image-20251021231233294.png)
 
 总结：让我学到新的方法，使用.user.ini文件进行绕过。
 
